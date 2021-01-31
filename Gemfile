@@ -43,6 +43,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'hirb'
 end
 
 group :test do
@@ -61,4 +62,5 @@ gem 'friendly_id', '~> 5.4', '>= 5.4.1'
 gem 'name_of_person', '~> 1.1', '>= 1.1.1'
 gem 'sidekiq', '~> 6.1', '>= 6.1.2'
 gem 'stripe'
+gem 'omniauth', '~> 1.9'
 gem 'omniauth-stripe-connect'
