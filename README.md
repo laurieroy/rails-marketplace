@@ -15,3 +15,5 @@
 * Job
 * Using Stripe Connect
 * Using Stimulus
+* Nested Attributes
+
