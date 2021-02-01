@@ -1,0 +1,4 @@
+Hi <%= @project.user.name || @project.user.username %>
+
+We wanted to inform you that the project <%=  @project.title %> has met it's 
+  expiration date and is no longer active. View you project:  <%=  project_url(@project) %>.
